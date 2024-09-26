@@ -1,22 +1,37 @@
-body{
-    background-color: #24353F;
-    font-family: 'Titillium Web', sans-serif;
+body {
+    background-color: #fff;
 }
-.main{
-    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+.btn-custom {
+    background-color: #6c63ff;
+    color: white;
+    width: 100%;
 }
-h1{
-    color: #17a2b8;
+.social-icons i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #6c63ff;
 }
 .form-control {
-    color: #fff;
-    background-color: #24353F;
+    background-color: #f4f4f9;
 }
-input::placeholder{
-    color: rgb(182, 182, 182) !important; 
+.text-purple {
+    color: #6c63ff;
 }
-.form-control:focus {
-    background-color: #24353F;
-    box-shadow: none;
-    color: #fff;
+.form-text {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+.text-muted {
+    color: #adb5bd !important;
+}
+
+form-control.is-valid, .was-validated .form-control:valid {
+    border-color: rgb(0, 98, 255);
+}
+
+@media (min-width:1024px){
+    .main{
+        width: 40%;
+    }
 }
