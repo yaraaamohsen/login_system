@@ -296,7 +296,7 @@ buttonIn.addEventListener('click', function () {
         for (var i = 0; i < x.length; i++) {
             setTimeout(() => {
                 invalid.classList.remove('d-none');
-            }, 1000);
+            }, 2000);
             if (emailInput.value == x[i].UserEmail &&
                 passInput.value == x[i].UserPass) {
                 console.log(x[i].UserEmail);
